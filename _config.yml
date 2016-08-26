@@ -13,6 +13,8 @@ first_published: 2016
 email: pioneer.ftc.robotics@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://plymouth-canton-ftc.org/pioneer" # the base hostname & protocol for your site
+deploy:
+  - rsync -aze ssh --delete ./ ftc@a:_site
 social:
   email: mailto:pioneer.ftc.robotics@gmail.com
   github: https://github.com/orgs/FTC10262/dashboard
