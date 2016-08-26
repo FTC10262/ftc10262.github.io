@@ -722,7 +722,16 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	dl {
 		margin: 0 0 _size(element-margin) 0;
+
+    dd {
+      margin-left: 2.5em;
+      padding-bottom: 2em;
+    }
 	}
+
+  dt {
+		font-weight: _font(weight-bold);
+  }
 
 /* Table */
 
